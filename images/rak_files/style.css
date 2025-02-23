@@ -1,0 +1,2048 @@
+Editing:  
+/home/rakhospital/public_html/css/style.css
+ Encoding:    Re-open Use Code Editor     Close  Save Changes
+
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: "calibri";
+	src: url("http://www.rakhospital.com/font/calibri.ttf");
+}
+@font-face {
+	font-family: "MyriadPro-Regular";
+	src: url("http://www.rakhospital.com/font/MyriadPro-Regular.otf");
+}
+@font-face {
+	font-family: "Myriad Condensed Web";
+	src: url("http://www.rakhospital.com/font/Myriad Condensed Web.ttf");
+}
+@font-face {
+	font-family: "GoudyStM";
+	src: url("http://www.rakhospital.com/font/GoudyStM.otf");
+}
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url("http://www.rakhospital.com/font/OpenSans-Regular.ttf");
+}
+body {
+	overflow-x:hidden !important;
+	min-width: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	float: left !important;
+	font-family: "calibri",Arial !important;
+	font-size: 14px !important;
+	color: #333333 !important;
+	font-weight: normal !important;
+}
+a {
+	outline: none !important;
+}
+img {
+	border: 0 !important;
+}
+.clear {
+	clear: both  !important;
+}
+#container {
+	width: 100% !important;
+	float: left !important;
+}
+nav {
+	width: 100% !important;
+	float: left !important;
+	background: url(http://www.rakhospital.com/images/nav-bg.jpg) repeat-x center top !important;
+	min-height: 41px !important;
+	font-family: "calibri", Helvetica, sans-serif !important;
+	color: #FFFFFF !important;
+	text-transform: uppercase !important;
+	margin: 0 !important;
+	position: relative !important;
+	z-index:20 !important;
+	font-size: 14px !important;
+}
+nav ul {
+	list-style: none !important;
+	margin: 0 auto !important;
+	padding: 0 !important;
+	float: right !important;
+
+}
+nav ul li {
+	float: left !important;
+        color:#fff !important;
+}
+nav ul li a {
+	display: block !important;
+	text-decoration: none !important;
+	color: #FFFFFF !important;
+	padding: 12px 14px 18px 14px !important;
+	margin: 0 1px !important;
+	transition: all 0.5s ease !important;
+}
+ *::-ms-backdrop, nav ul li a {
+padding: 12px 7px 18px 7px !important;
+}
+nav ul li a:hover {
+	background: url(http://www.rakhospital.com/images/nav-hover-bg.png) no-repeat center bottom !important;
+}
+nav ul li a.selected {
+	background: url(http://www.rakhospital.com/images/nav-hover-bg.png) no-repeat center bottom !important;
+}
+nav ul li:hover > ul {
+	display: block !important;
+}
+nav ul ul {
+	display: none !important;
+	position: absolute !important;
+	width:290px !important;
+	padding:0px 0 !important;
+	background:#535353 !important;
+	z-index: -1 !important;
+	margin-top:-5px !important;
+	text-transform: capitalize !important;
+	transition: all 0.9s ease !important;
+}
+nav ul ul li {
+	display: block !important;
+	width:290px !important;
+	border-bottom: 1px solid #383838 !important;
+        color:#fff !important;
+}
+nav ul ul li img {
+	margin-top:1px !important;
+	float:left !important;
+	margin-right:5px !important;
+}
+nav ul ul li a {
+	background-image: none !important;
+	padding:10px 10px !important;
+	display: block !important;
+	margin: 0 !important;
+	font-family: "calibri", Helvetica, sans-serif !important;
+}
+nav ul ul li a:hover {
+	background-image: none !important;
+	background-color: #b43596 !important;
+}
+nav ul ul ul {
+	position: absolute !important;
+	left: 100% !important;
+	margin-top: -26px !important;
+	width: 200px !important;
+}
+nav ul ul ul li {
+	border-bottom: 0 !important;
+	margin-top:-13px !important;
+	background:#383838 !important;
+	padding:10px !important;
+	width:180px !important;
+	text-align:center !important;
+	font-family:Arial, Helvetica, sans-serif !important;
+	font-size:11px !important;
+	font-style:italic !important;
+	line-height:11px !important;
+}
+nav ul ul ul li a:hover {
+	background: none !important;
+	color: #333 !important;
+}
+.rak-hospital {
+	width: auto !important;
+	float: left !important;
+	position: absolute !important;
+	left: 20px !important;
+	top: 0 !important;
+	z-index:50 !important;
+}
+.top-links {
+	width: auto !important;
+	position: absolute !important;
+	right: 0 !important;
+	top: 42px !important;
+	background: url(http://www.rakhospital.com/images/top-links-left-bg.png) no-repeat left top !important;
+	z-index: 6 !important;
+	font-size: 14px !important;
+	padding:0px 0px 0px 9px !important;
+	
+}
+
+.top-links .bg{background: url(http://www.rakhospital.com/images/top-links-bg.png) repeat-x center top !important;}
+
+.top-links ul {
+	list-style: none !important;
+	margin: 0px 0px 0px 0px !important;
+	padding: 0px 0px 0px 0px !important;	
+	min-height: 43px !important;
+	float: left !important;
+}
+.top-links li {
+	float: left !important;
+	font-family: "calibri", Helvetica, sans-serif !important;
+	font-weight: bold !important;
+	text-transform: uppercase !important;
+}
+.top-links li a {
+	text-decoration: none !important;
+	color: #555 !important;
+	display: block !important;
+	padding: 13px 20px 13px 25px !important;
+	margin: 0 1px !important;
+}
+.top-links li a:hover {
+	color: #c5239b !important;
+}
+.top-links li a.first {
+	background: url(http://www.rakhospital.com/images/request-icon.png) no-repeat left 15px !important;
+}
+.top-links li a.second {
+	background: url(http://www.rakhospital.com/images/download-icon.png) no-repeat left 15px !important;
+}
+.top-links li a.third {
+	background: url(http://www.rakhospital.com/images/chat-icon.png) no-repeat left 15px !important;
+}
+.top-links li a.forth {
+	background: url(http://www.rakhospital.com/images/make-an-icon.png) no-repeat left 15px !important;
+}
+#home-banner {
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-top: -5px;
+}
+#home-banner ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 400px;
+	overflow: hidden;
+}
+#home-banner ul li {
+	display: block;
+	float: left;
+}
+#home-banner ul li .content {
+	width: auto;
+	float: left;
+	padding: 140px 0 0 0px;
+	font-family: "arial";
+	//color: #FFFFFF;
+	text-align: left;
+	line-height: 42px;
+        margin-left:50px;
+}
+#home-banner ul li .content1 {
+	width: auto;
+	float: left;
+	padding: 200px 0 0 0px;
+	font-family: "arial";
+	//color: #FFFFFF;
+	text-align: left;
+	line-height: 42px;
+        margin-left:50px;
+}
+#home-banner h3{font-size:49px;color:#555;text-align:center;font-family:"Myriad" "arial"}
+#home-banner ul li .content h1,h1.se-entry {
+	font-size: 62px;
+	margin: 0;
+	font-weight: normal;
+	line-height: 60px;
+}
+.content1 a{text-decoration:none;}
+#home-banner h4{text-align:center;font-size:15px}
+#home-banner ul li .content h2 {
+	font-size: 49px;
+	margin: 0;
+	font-weight: normal;
+}
+#home-banner ul li .content h3,#home-banner ul li .content1 h3 {
+	margin: 0;
+	font-weight: normal;
+}
+
+#home-banner .content a{
+color:#333;
+text-decoration:none;
+}
+
+.footer {
+	width: 100%;
+	float: left;
+	background-color: #464648;
+	color: #CCCCCC;
+	font-family: "calibri", Helvetica, sans-serif;
+	padding: 10px 0;
+}
+.all-rights {
+	width: auto;
+	float: left;
+	font-size:11px;
+	color:#999;
+	padding: 5px 0 0 20px;
+}
+.swt {
+	display: block;
+	font-size:11px;
+	float: right;
+	padding: 0 20px 0 0;
+}
+.swt a {
+	text-decoration: none;
+	color: #999;
+}
+.swt span {
+	display: block;
+	float: left;
+	padding: 0 5px 0 0;
+	line-height: 21px;
+}
+.swt img {
+	margin: 0;
+	float: right;
+}
+#home-wrapper {
+	width: 1350px;
+	background-color: #f6f6f6;
+	min-height: 250px;
+	margin-top: 1px;
+	margin: 0 auto;
+}
+.find-doc {
+	width: 337px;
+	float: left;
+	font-family: "Myriad Condensed Web", Helvetica, sans-serif;
+	font-size: 14px;
+}
+.find-doc .title {
+	width: auto;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 0 20px;
+	text-transform: uppercase;
+	background: url(http://www.rakhospital.com/images/find-doc-head-bg.jpg) repeat-x center top;
+	line-height: 44px;
+}
+.find-doc .box {
+	display: block;
+	padding: 20px;
+	background: url(http://www.rakhospital.com/images/devider-bg.png) no-repeat right top;
+	min-height: 250px;
+}
+.find-doc .box form {
+	margin: 0;
+	text-transform: uppercase;
+}
+.find-doc .box form input[type="text"] {
+	width: 92%;
+	float: left;
+	margin: 0 0 10px 0;
+	font-family: "MyriadPro-Regular", Helvetica, sans-serif;
+	font-size: 13px;
+	color: #5d5d5f;
+	outline: none;
+	background: url(http://www.rakhospital.com/images/text-bg.png) repeat-x center bottom #fff;
+	border: 1px solid #d7d7d7;
+	border-bottom: 1px solid #aaaaaa;
+	padding: 6px 8px;
+	text-transform: lowercase;
+}
+.find-doc .box form select {
+	width: 100%;
+	float: left;
+	margin: 0 0 10px 0;
+	font-family: "MyriadPro-Regular", Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000;
+	outline: none;
+	background: url(http://www.rakhospital.com/images/text-bg.png) repeat-x center bottom #fff;
+	border: 1px solid #d7d7d7;
+	border-bottom: 1px solid #aaaaaa;
+	padding: 4px 8px;
+	text-transform:capitalize;
+}
+.find-doc .box form select border {
+	border: 0;
+}
+.find-doc .box .find-docter {
+	width: auto;
+	margin: 10px 0 0 0;
+}
+.find-doc .box .find-docter a {
+	margin: 2px;
+	background: url(http://www.rakhospital.com/images/find-a.png) left center;
+	border-radius: 3px;
+	overflow: hidden;
+	text-transform: uppercase;
+	padding: 4px 0;
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	text-align: center;
+	width: 28px;
+}
+.find-doc .box .find-docter a:hover {
+	background: url(http://www.rakhospital.com/images/find-a-hover.png) repeat-x;
+}
+.make-appointment {
+	width:337px;
+	float: left;
+	font-family: "Myriad Condensed Web", Helvetica, sans-serif;
+	font-size: 14px;
+}
+.make-appointment .title {
+	width: auto;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 0 20px;
+	text-transform: uppercase;
+	background: url(http://www.rakhospital.com/images/make-an-head-bg.jpg) repeat-x center top;
+	line-height: 44px;
+}
+.make-appointment .box {
+	display: block;
+	padding: 20px;
+	background: url(http://www.rakhospital.com/images/devider-bg.png) no-repeat right top;
+	min-height: 250px;
+}
+.make-appointment .box form {
+	margin: 0;
+	text-transform: uppercase;
+}
+.make-appointment .box form input[type="text"] {
+	width: 92%;
+	float: left;
+	margin: 0 0 10px 0;
+	font-family: "MyriadPro-Regular", Helvetica, sans-serif;
+	font-size: 13px;
+	color: #5d5d5f;
+	outline: none;
+	background: url(http://www.rakhospital.com/images/text-bg.png) repeat-x center bottom #fff;
+	border: 1px solid #d7d7d7;
+	border-bottom: 1px solid #aaaaaa;
+	padding: 6px 8px;
+	text-transform: lowercase;
+}
+.make-appointment .box form select {
+	width: 100%;
+	float: left;
+	margin: 0 0 10px 0;
+	font-family: "MyriadPro-Regular", Helvetica, sans-serif;
+	font-size: 13px;
+	color: #5d5d5f;
+	outline: none;
+	background: url(http://www.rakhospital.com/images/text-bg.png) repeat-x center bottom #fff;
+	border: 1px solid #d7d7d7;
+	border-bottom: 1px solid #aaaaaa;
+	padding: 4px 8px;
+	text-transform: lowercase;
+}
+.make-appointment .box form select border {
+	border: 0;
+}
+.make-appointment .box form input[type="image"] {
+	margin: 10px 0 0 0;
+}
+.news-events {
+	width: 337px;
+	float: left;
+	font-family: "Myriad Condensed Web", Helvetica, sans-serif;
+}
+.news-events .title {
+	width: auto;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 0 20px;
+	text-transform: uppercase;
+	background: url(http://www.rakhospital.com/images/news-events-head-bg.jpg) repeat-x center top;
+	line-height: 44px;
+}
+.news-events .box {
+	display: block;
+	padding: 10px 20px;
+	background: url(http://www.rakhospital.com/images/devider-bg.png) no-repeat right top;
+	min-height: 250px;
+}
+.news-events .box figure {
+	width: auto;
+	margin: 10px 0;
+	display: block;
+}
+.news-events .box figure .picks {
+	width: auto;
+}
+.news-events .box figure .picks img {
+	margin: 0 0 0 10px;
+	float: right;
+	border: 1px solid #ccc;
+	padding:1px;
+}
+.news-events .box figure figcaption {
+	width: 220px;
+	float: left;
+	display: block;
+}
+.news-events .box figure figcaption .date {
+	font-size: 13px;
+	display: block;
+}
+.news-events .box figure figcaption 
+
+	margin: 0;
+	height: 55px;
+	text-align:left;
+	overflow: hidden;
+	padding: 5px 0;
+	line-height: 18px;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+}
+.news-events .box .view-all {
+	width: auto;
+	text-align: right;
+}
+.rak-hos {
+	width: 337px;
+	float: left;
+	font-family: "Myriad Condensed Web", Helvetica, sans-serif;
+}
+.rak-hos .title {
+	width: auto;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 0 20px;
+	text-transform: uppercase;
+	background: url(http://www.rakhospital.com/images/rak-hos-head-bg.jpg) repeat-x center top;
+	line-height: 44px;
+}
+.rak-hos .box {
+	display: block;
+	padding: 20px;
+	background: url(http://www.rakhospital.com/images/devider-bg.png) no-repeat right top;
+	min-height: 250px;
+}
+.rak-hos .box .content {
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	width: auto;
+	padding: 8px 0 0 30px;
+	height: 68px;
+	overflow: hidden;
+	background: url(http://www.rakhospital.com/images/left-icon.png) no-repeat left 0;
+	font-size: 15px;
+	line-height: 22px;
+}
+.rak-hos .box .content p {
+	margin: 0;
+	text-align: left;
+}
+.rak-hos .box .date {
+	width: auto;
+	padding: 0 30px 0 30px;
+	margin: 20px 0 0 0;
+	background: url(http://www.rakhospital.com/images/right-icon.png) no-repeat right bottom;
+	font-size: 15px;
+}
+.rak-hos .box .date em {
+	font-size: 21px;
+	color: #666666;
+}
+.rak-hos .box .picks {
+	width: auto;
+	text-align: right;
+	margin-right:-19px;
+}
+.rak-hos .box .picks img {
+	margin: 0;
+	float: right;
+}
+.note {
+	font-family: "calibri", Helvetica, sans-serif;
+	text-align: center;
+	background: url(http://www.rakhospital.com/images/wraper-bottom-bg.jpg) repeat-x center bottom;
+	font-size: 14px;
+	width: 100%;
+	font-weight: bold;
+	color: #5d5d5f;
+}
+.note p {
+	margin: 0;
+	line-height:18px;
+	padding: 20px 50px;
+	max-width: 1300px;
+	margin: 0 auto;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	text-align:center;
+	font-weight:normal;
+	font-size:13px;
+}
+ @media only screen and (min-width:799px) and (max-width:800px) {
+.find-doc {
+	width: 25%;
+	width: 250px;
+	float: left;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	font-size: 14px;
+}
+}
+/*inner*/
+
+#footer-menu {
+	width: 100%;
+	float: left;
+	background-color:#535353;
+	padding: 16px 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #CCC;
+	font-family: "calibri", Helvetica, sans-serif;
+}
+#footer-menu ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0 50px;
+	width: 900px;
+}
+#footer-menu li {
+	display: block;
+	float: left;
+	padding: 0 7px;
+}
+ *::-ms-backdrop, #footer-menu li {
+padding:2px;
+}
+#footer-menu li a {
+	text-decoration: none;
+	color:#CCC;
+}
+#footer-menu li a:hover {
+	color: #eee;
+}
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	min-height: 250px;
+}
+#left-section {
+	width: 272px;
+	float: left;
+}
+#right-section {
+	width: 670px;
+	float: right;
+}
+#right-section .header {
+	width: auto;
+	padding: 0 0 18px 0;
+	margin: 0 0 10px 0;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	background: url(http://www.rakhospital.com/images/heading-bottom-bg.png) no-repeat center bottom;
+}
+#right-section .header h1 {
+	margin: 0;
+	float: left;
+	color: #454545;
+	font-size: 22px;
+	font-weight: normal;
+}
+#right-section .header .menu {
+	width: auto;
+	float: right;
+	color: #3c3c3c;
+	padding: 4px 0 0 0;
+}
+#right-section .header .menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+#right-section .header .menu li {
+	display: block;
+	float: left;
+	padding: 0 15px 0 10px;
+	background: url(http://www.rakhospital.com/images/arrow1.png) no-repeat right 6px;
+}
+#right-section .header .menu li.selected {
+	background-image: none;
+	padding-right: 0;
+ color:
+}
+#right-section .header .menu li a {
+	text-decoration: none;
+	color: #3c3c3c;
+}
+#right-section .header .menu li a:hover {
+	color: #c16115;
+	text-decoration: underline;
+}
+#right-section h2 {
+	margin: 0 0 5px 0;
+	font-size: 20px;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	color: #454545;
+	font-weight: normal;
+}
+#right-section .content {
+	width: auto;
+	padding: 0 0 10px 0;
+	line-height: 22px;
+	color: #3c3c3c;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	font-size: 13px;
+}
+#right-section .content p {
+	margin: 0;
+	padding: 0 0 10px 0;
+	color: #3c3c3c;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	font-size: 13px;
+	line-height:22px;
+}
+.video-section {
+	width: auto;
+	margin: 10px 0;
+	border-radius: 5px;
+	overflow: hidden;
+	padding: 18px;
+	background: url(http://www.rakhospital.com/images/video-bg.jpg) repeat center top;
+}
+.video-section img {
+	margin: 0;
+	float: left;
+}
+#banner {
+	width: 100%;
+	text-align: center;
+	float: left;
+	margin-top: -5px;
+}
+#banner .text {
+	width: 1000px;
+	margin: 0 auto;
+}
+#banner .text img {
+	margin: 165px 0 0 0;
+	float: left;
+}
+.did-u-hnow {
+	border-radius:0px 20px 0px 20px;
+	width: 370px;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	height:190px;
+	border-bottom: 0;
+	overflow: hidden;
+	padding: 10px;
+	background: url(http://www.rakhospital.com/images/banner-text-bg.png) repeat center top;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	margin-top: -230px;
+	left: -70%;
+}
+#strap ul {
+	width: 100%;
+	float:left;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+}
+#example, .example {
+	text-align: left;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #eee;
+}
+.example button {
+	margin: 10px;
+}
+.example.paused, #example.paused {
+	background-color: #e57cca;
+	color: #fff;
+	width:735px;
+}
+#nav {
+	margin-left:34px;
+	overflow: hidden;
+}
+#nav li {
+	display: inline;
+	margin: 0;
+}
+.read_news {
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#333;
+}
+.read_news a {
+	text-decoration:none;
+	color:#333;
+}
+.read_news a:hover {
+	text-decoration:none;
+	color:#333;
+}
+.name {
+	margin: auto;
+	font-weight: bold;
+	color: #0687c1;
+	font-family: "MyriadPro-Regular", Helvetica, sans-serif;
+	font-size: 20px;
+	width: 150px;
+	display: block;
+}
+.our-services {
+	width: auto;
+	position: relative;
+	margin-bottom:30px;
+}
+.our-services .video {
+	width: auto;
+	padding: 3px;
+}
+.our-services .video ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 264px;
+	height:270px;
+}
+.our-services .video ul li {
+	display: block;
+	line-height:16px;
+	font-size:12px;
+	float: left;
+	width: 264px;
+	height:270px;
+}
+.our-services .video ul li a {
+	width:auto !important;
+	float:left !important;
+	font-size:11px !important;
+	text-decoration:none !important;
+	margin:0px !important;
+	background: none !important;
+	border-radius: 3px !important;
+	color: #555 !important;
+	padding: 3px !important;
+	text-decoration: underline !important;
+}
+.our-services .video ul li a:hover {
+	width:auto;
+	text-decoration:none;
+	font-size:11px;
+	margin:0px;
+	background: none repeat scroll 0 0 #266C90;
+	border-radius: 3px;
+	color: #FFFFFF;
+	padding: 3px;
+	text-decoration: underline;
+}
+.our-services .videso-arrow {
+	width: auto;
+	padding: 0 5px;
+	text-align: right;
+	margin-top:8px;
+	right: 0;
+}
+.our-services .videso-arrow img {
+	margin: 0 10px 0 0px;
+	float: left;
+}
+.our-services .content {
+	width: auto;
+	min-height: 100px;
+	margin: 10px 0;
+}
+.our-services .read-more {
+	color: #c5229b;
+}
+.our-services ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.our-services li {
+	display: block;
+	font-size: 13px;
+}
+.our-services li a {
+	display: block !important;
+	text-align:left !important;
+	padding: 6px 10px !important;
+	margin: 0 !important;
+	text-decoration: none !important;
+	color: #000 !important;
+	background: url(http://www.rakhospital.com/images/accordian-border.png) no-repeat left bottom !important;
+}
+.our-services li a:hover {
+	color:#FFFFFF !important;
+	transition:0.5s !important;
+	-webkit-transition:0.5s !important; /* Safari */
+	background: url(http://www.rakhospital.com/images/accordian-hover.png) no-repeat left center !important;
+}
+.active {
+	background: url(http://www.rakhospital.com/images/accordian-hover.png) no-repeat left center;
+	color:#fff !important;
+}
+.our-services .view-all {
+	color: #909090;
+	text-align: right;
+	font-size: 11px;
+	margin-right:5px;
+	border-bottom:5px;
+	font-family:calibiri;
+}
+.our-services .view-all a {
+	text-decoration: none;
+	color: #909090;
+	padding:3px;
+}
+.our-services .view-all a:hover {
+	text-decoration: underline;
+	background:#266c90;
+	color:#FFFFFF;
+	border-radius:3px;
+	padding:3px;
+}
+.our-group {
+	width: auto;
+	background: url(http://www.rakhospital.com/images/aid-group-bg.jpg) repeat center top;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.our-group aside {
+	width: auto;
+	text-align: center;
+	margin: 35px 0 0 0;
+}
+.our-group aside.organization {
+	width: auto;
+	float: left;
+}
+.our-group aside.organization img {
+	margin: 0 3px 0 2px;
+	float: left;
+}
+.specialties {
+	width: auto;
+	display: block;
+}
+.specialties figure {
+	width: 313px;
+	float: left;
+	margin:10px 20px 10px 0px;
+	border-radius: 0 30px 0 0;
+	min-height: 120px;
+	border:1px solid #EAEAEA;
+	background-color: #f4f4f4;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+}
+.specialties figure h3 {
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 0 10px 0;
+	font-size: 13px;
+	color: #000;
+	background-color: #E2E2E2;
+	padding: 0 10px;
+	border-radius: 0 30px 0 0;
+	overflow: hidden;
+}
+.specialties figure img {
+	margin: 0 0 0 10px;
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+.specialties figure figcaption {
+	width: 230px;
+	float: right;
+	margin: 0 10px 0 0;
+}
+.specialties figure figcaption p {
+	margin: 0;
+	padding: 0 0 5px 0;
+	line-height: 18px;
+	text-align: left;
+	height: 52px;
+	overflow: hidden;
+}
+.specialties figure figcaption .read-more {
+	width: auto;
+	text-align: right;
+}
+.specialties figure figcaption .read-more a {
+	text-decoration: underline;
+	color: #333333;
+}
+.specialties figure figcaption .read-more a:hover {
+	text-decoration: none;
+}
+.specialties-detail {
+	width: auto;
+	display: block;
+}
+.specialties-detail ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 100%;
+	border-bottom: 2px solid #953e7f;
+}
+.specialties-detail ul li {
+	float: left;
+}
+.specialties-detail ul li a {
+	display: block;
+	padding: 5px 15px;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	color: #000;
+	font-size: 14px;
+	background-color: #f4f4f4;
+	text-decoration: none;
+	margin: 0 2px 0 0;
+}
+.specialties-detail ul li a:hover {
+	background-color: #e57bca;
+}
+.specialties-detail ul li a.selected {
+	background-color: #b53596;
+	color:#fff;
+}
+.specialties-detail .cont p {
+	margin: 0;
+	padding: 0 0 10px 0;
+	text-align: justify;
+	color: #3C3C3C;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 22px;
+}
+.specialties-detail .cont {
+	width: auto;
+	display: block;
+	padding: 5px;
+}
+.specialties-detail .cont ul {
+	margin:0px;
+	padding:0px;
+	border:none;
+}
+.specialties-detail .cont li {
+	float:none !important;
+	margin:0px 0px 0px 30px;
+	padding:3px 0px;
+	list-style:circle;
+	color: #3C3C3C;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+}
+.specialties-detail figure {
+	width: auto;
+	margin: 10px 0;
+	border-radius: 0 30px 0 0;
+	background-color: #f4f4f4;
+	border:1px solid #EAEAEA;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	padding-bottom: 10px;
+}
+.specialties-detail figure h3 {
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 0 10px 0;
+	font-size: 14px;
+	color: #000;
+	background-color: #E2E2E2;
+	padding: 0 10px;
+	border-radius: 0 30px 0 0;
+	overflow: hidden;
+}
+.specialties-detail figure .left-col {
+	width: auto;
+	float: left;
+	margin: 0 0 0 10px;
+}
+.specialties-detail figure .left-col img {
+	margin:0;
+	float:left;
+	width:130px;
+	
+	border: 1px solid #CCCCCC;
+	
+	float: left;
+	margin-right: 20px;
+	padding: 2px;
+}
+.specialties-detail figure .left-col .view-dis {
+	width: auto;
+	float: left;
+}
+.specialties-detail figure figcaption {
+	width:488px;
+	display: block;
+	float: right;
+	margin: 0 0px 0 0;
+}
+.specialties-detail figure figcaption .desigantion {
+	width: auto;
+	min-height: 80px;
+}
+.specialties-detail figure figcaption .desigantion span {
+	display: block;
+	padding: 4px 0;
+}
+.specialties-detail figure figcaption p {
+	margin: 0;
+	padding: 0 0 5px 0;
+	line-height: 18px;
+	text-align: justify;
+}
+.specialties-detail figure .read-more {
+	width: auto;
+	float: right;
+	text-align: right;
+	margin-top: 10px;
+}
+.specialties-detail figure .read-more a {
+	text-decoration: underline;
+	color: #333333;
+}
+.specialties-detail figure .read-more a:hover {
+	text-decoration: none;
+}
+.specialties-detail figure .view-detail {
+	width: auto;
+	display: block;
+	padding: 0 10px;
+	margin: 0;
+	width:478px;
+	float:right;
+}
+.specialties-detail figure .view-detail .left-col1 {
+	width: auto;
+	float: left;
+}
+.specialties-detail figure .view-detail .left-col1 a {
+	display: block;
+	float: left;
+	padding: 5px 15px;
+	border-radius: 5px;
+	overflow: hidden;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 14px;
+	background-color: #953e7f;
+	text-decoration: none;
+	margin: 0 15px 0 0;
+}
+.specialties-detail figure .view-detail .left-col a:hover {
+	background-color: #e57bca;
+}
+.doctor-detail {
+	width: auto;
+}
+.doctor-detail .picks {
+	
+	float: left;
+	margin: 0 10px 0 0;
+}
+.doctor-detail span {
+	display: block;
+	padding: 4px 0;
+}
+.doctor-detail .picks img {
+	margin: 0;
+	float: left;
+	border: 1px solid #CCCCCC;
+	float: left;
+	margin-right: 20px;
+	padding: 2px;
+}
+.doctor-detail p {
+	margin: 0;
+	padding: 0 0 5px 0;
+	line-height: 18px;
+	text-align: justify;
+}
+.find-doc-inner {
+	width: auto;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	font-size: 13px;
+	margin: 0 0 4px 0;
+	background-color:#f6f6f6;
+	padding: 10px 6px;
+	border-radius: 5px;
+}
+.find-doc-inner .box {
+	display: block;
+	padding: 0;
+}
+.find-doc-inner .box form {
+	margin: 0;
+	text-transform: uppercase;
+}
+.find-doc-inner .box form input[type="text"] {
+	width: 162px;
+	float: right;
+	margin: 0 0 10px 0;
+	font-size: 13px;
+	color: #5d5d5f;
+	outline: none;
+	background: url(http://www.rakhospital.com/images/text-bg.png) repeat-x center bottom #fff;
+	border: 1px solid #d7d7d7;
+	border-bottom: 1px solid #aaaaaa;
+	padding: 6px 8px;
+	text-transform: lowercase;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.find-doc-inner .box form select {
+	width: 180px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	float:right;
+	margin: 0 0 10px 0;
+	font-size: 13px;
+	color: #5d5d5f;
+	outline: none;
+	background: url(http://www.rakhospital.com/images/text-bg.png) repeat-x center bottom #fff;
+	border: 1px solid #d7d7d7;
+	border-bottom: 1px solid #aaaaaa;
+	padding: 5px 4px 4px 8px;
+	text-transform:capitalize;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.find-doc-inner .box form select border {
+	border: 0;
+}
+.find-doc-inner .box .find-docter {
+	width: auto;
+	margin: 10px 0 0 0;
+}
+.find-doc-inner .box .find-docter a {
+	margin: 2px;
+	background: url(http://www.rakhospital.com/images/find-a.png) left center;
+	border-radius: 3px;
+	overflow: hidden;
+	text-transform: uppercase;
+	padding: 4px 0;
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	text-align: center;
+	width: 28px;
+}
+.find-doc-inner .box .find-docter a:hover {
+	background: url(http://www.rakhospital.com/images/find-a-hover.png) repeat-x;
+}
+.box-inner {
+	display: block;
+	padding: 10px 6px;
+	margin: 0 0 4px 0;
+	background-color: #f6f6f6;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	font-size: 13px;
+	border-radius: 5px;
+}
+.box-inner form {
+	margin: 0;
+	text-transform: uppercase;
+}
+.box-inner form input[type="text"] {
+	width: 162px;
+	float: right;
+	margin: 0 0 10px 0;
+	font-size: 13px;
+	color: #5d5d5f;
+	outline: none;
+	background: url(http://www.rakhospital.com/images/text-bg.png) repeat-x center bottom #fff;
+	border: 1px solid #d7d7d7;
+	border-bottom: 1px solid #aaaaaa;
+	padding: 6px 8px;
+	text-transform: lowercase;
+}
+.box-inner form select {
+	width: 180px;
+	float: right;
+	margin: 0 0 10px 0;
+	font-size: 13px;
+	color: #5d5d5f;
+	outline: none;
+	background: url(http://www.rakhospital.com/images/text-bg.png) repeat-x center bottom #fff;
+	border: 1px solid #d7d7d7;
+	border-bottom: 1px solid #aaaaaa;
+	padding: 4px 8px;
+	text-transform:capitalize;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.box-inner form select border {
+	border: 0;
+}
+.box-inner form input[type="image"] {
+	margin: 10px 0 0 0;
+}
+/*new*/
+
+.news-box {
+	display: block;
+	padding: 5px 4px;
+	margin: 0 0 4px 0;
+	background-color: #f6f6f6;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	font-size: 13px;
+	border-radius: 5px;
+}
+.news-box figure {
+	width: auto;
+	margin: 5px 0 10px 0;
+	display: block;
+}
+.news-box figure .picks {
+	width: auto;
+	float: left;
+	margin: 0;
+}
+.news-box figure .picks img {
+	margin: 0;
+	float: left;
+	border: 1px solid #FFFFFF;
+	width: 62px;
+	height: 62px;
+	margin-right:3px;
+}
+.news-box figure figcaption {
+	width: 186px;
+	float: right;
+	display: block;
+}
+.news-box figure figcaption .date {
+	display: block;
+	width: auto;
+}
+.news-box figure figcaption p {
+	margin: 0;
+	height: 45px;
+	overflow: hidden;
+	padding: 5px 0;
+	line-height: 16px;
+	font-size: 12px;
+	text-align: left;
+}
+.news-box figure figcaption a {
+	text-decoration: none;
+	color: #666;
+}
+.news-box figure figcaption a:hover {
+	text-decoration: underline;
+}
+.rak-hos-box {
+	width: auto;
+	display: block;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	font-size: 13px;
+	margin: 4px 0;
+	padding:0px 10px;
+}
+.rak-hos-box .cont {
+	width: auto;
+	padding: 0 0 0 30px;
+	background: url(http://www.rakhospital.com/images/left-icon.png) no-repeat left 0;
+	line-height: 21px;
+	height: 45px;
+	overflow: hidden;
+}
+.rak-hos-box .cont p {
+	margin: 0;
+	text-align: justify;
+}
+.rak-hos-box .date {
+	width: auto;
+	padding: 0 30px 0 30px;
+	margin: 20px 0 0 0;
+	background: url(http://www.rakhospital.com/images/right-icon.png) no-repeat right bottom;
+	font-size: 14px;
+}
+.rak-hos-box .date em {
+	font-size: 21px;
+	color: #666666;
+}
+/*new*/
+
+
+
+/*inner*/
+
+
+
+
+
+
+
+/*vijay css*/
+
+
+
+.make-appointment {
+	width: 337px;
+	float: left;
+	font-family: "Myriad Condensed Web", Helvetica, sans-serif;
+}
+.make-appointment .title {
+	width: auto;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 0 20px;
+	text-transform: uppercase;
+	background: url(http://www.rakhospital.com/images/make-an-head-bg.jpg) repeat-x center top;
+	line-height: 44px;
+}
+.make-appointment .box {
+	display: block;
+	padding: 10px 20px;
+	background: url(http://www.rakhospital.com/images/devider-bg.png) no-repeat right top;
+	min-height: 250px;
+}
+.make-appointment .box figure {
+	width: auto;
+	margin: 10px 0;
+	display: block;
+}
+.make-appointment .box figure .picks {
+	width: auto;
+	float:left;
+}
+.make-appointment .box figure .picks img {
+	margin: 0 10px 0 0px;
+	float: right;
+	border: 1px solid #ccc;
+	padding:1px;
+}
+.make-appointment .box figure figcaption {
+	width: 220px;
+	float: left;
+	display: block;
+}
+.make-appointment .box figure figcaption .date {
+	font-size: 13px;
+	display: block;
+}
+.make-appointment .box figure figcaption p {
+	margin: 0;
+	height:75px;
+	overflow: hidden;
+	font-size:12px;
+	padding:0px 0 5px 0;
+	line-height: 18px;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+}
+.make-appointment .box figure figcaption .read-more {
+	width: auto;
+	font-size:11px;
+}
+.make-appointment .box figure figcaption .read-more a {
+	text-decoration:none;
+	color:#266c90;
+	padding:1px 3px;
+}
+.make-appointment .box figure figcaption .read-more a:hover {
+	text-decoration:none;
+	color:#fff;
+	background:#266c90;
+	border-radius:3px;
+	padding:1px 3px;
+}
+.make-appointment .box .view-all {
+	width: auto;
+	text-align: right;
+}
+.news-events .box figure figcaption .read-more {
+	width: auto;
+	font-size:11px;
+}
+.news-events .box figure figcaption .read-more a {
+	text-decoration:none;
+	color:#266c90;
+	padding:1px 3px;
+}
+.news-events .box figure figcaption .read-more a:hover {
+	text-decoration:none;
+	color:#fff;
+	background:#266c90;
+	border-radius:3px;
+	padding:1px 3px;
+}
+/**/
+
+.testimonials {
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	font-size:13px;
+	padding:0px 20px;
+}
+.testimonials p {
+	font-size:13px;
+	line-height:22px !important;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+}
+.testimonials img {
+	float:left;
+	margin-right:20px;
+	padding:2px;
+	border:1px solid #CCCCCC;
+	border-radius:70px;
+}
+.testimonials2 {
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	font-size:18px;
+	padding:0px 20px;
+}
+.testimonials2 p {
+	font-size:13px;
+	line-height:22px !important;
+}
+.testimonials2 img {
+	float:right;
+	margin-left:20px;
+	padding:2px;
+	border:1px solid #CCCCCC;
+	border-radius:70px;
+}
+.testimonials a {
+	color:#bb0000;
+	text-decoration:none;
+	font-size:14px;
+}
+.testimonials a:hover {
+	color:#bb0000;
+	text-decoration:none;
+	font-size:14px;
+}
+.testimonials2 a {
+	color:#bb0000;
+	text-decoration:none;
+	font-size:14px;
+}
+.testimonials2 a:hover {
+	color:#bb0000;
+	text-decoration:none;
+	font-size:14px;
+}
+.news-listing {
+	width: auto;
+	display: block;
+}
+.news-listing figure {
+	width: auto;
+	margin:10px 0px 10px 0px;
+	border-radius: 0 30px 0 0;
+	min-height: 130px;
+	border:1px solid #EAEAEA;
+	background-color: #f4f4f4;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+}
+.news-listing figure h3 {
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 0 10px 0;
+	font-size: 14px;
+	color: #000;
+	background-color: #E2E2E2;
+	padding: 0 10px;
+	border-radius: 0 30px 0 0;
+	overflow: hidden;
+}
+.news-listing figure img {
+	margin: 0 0 0 10px;
+	float: left;
+	border-radius:50px;
+	padding:2px;
+	border:1px solid #CCCCCC;
+}
+.news-listing figure figcaption {
+	width: 555px;
+	margin: 0 10px 0 0;
+}
+.news-listing figure figcaption p {
+	margin: 0;
+	padding: 0 0 5px 0;
+	line-height: 18px;
+	text-align: left;
+	overflow: hidden;
+}
+.news-listing figure figcaption .read-more {
+	width: auto;
+	text-align: right;
+}
+.news-listing figure figcaption .read-more a {
+	text-decoration: underline;
+	color: #333333;
+}
+.news-listing figure figcaption .read-more a:hover {
+	text-decoration: none;
+}
+.news-detail {
+	width: auto;
+	font-weight: normal;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	font-size: 14px;
+}
+.news-detail h2 {
+	margin: 0 0 15px 0 !important;
+	color: #454545;
+	font-size: 21px;
+}
+.news-detail .picks {
+	width: auto;
+	float: left;
+	margin: 0 10px 0 0;
+}
+.news-detail .picks img {
+	margin: 0;
+	float: left;
+}
+p {
+	margin: 0;
+	font-size:14px;
+	padding:0px 0 5px 0;
+	line-height: 18px;
+	text-align: justify;
+}
+.link {
+	float:  right;
+	clear: both;
+	margin: -28px 0px 0px 0px;
+	z-index:10;
+	position: relative;
+}
+.link ul {
+	margin:0;
+	padding:0;
+}
+.link li {
+	margin:0px;
+	padding:0px;
+	float:left;
+	list-style:none;
+	text-align:center;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	font-size: 14px;
+}
+.link li a {
+	text-decoration:none;
+	border-radius:0px 10px 0px 10px;
+	text-transform:capitalize;
+	padding:3px 0px;
+	float:left;
+	color:#fff;
+	width:165px;
+	margin-left:3px;
+	margin-bottom:1px;
+	transition:0.5s;
+	-webkit-transition:0.5s; /* Safari */
+	background:#555;
+}
+.link li a:hover {
+	text-decoration:none;
+	border-radius:10px 0px 10px 0px;
+	text-shadow:0px 0px 1px #555;
+	background:#b51a8f;
+	color:#fff;
+	transition:0.5s;
+	-webkit-transition:0.5s;/* Safari */
+}
+.link_page {
+	float:left;
+	clear:both;
+	margin:10px 0px 0px 0px;
+}
+.link_page ul {
+	margin:0;
+	padding:0;
+}
+.link_page li {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	text-align:left;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	font-size: 14px;
+}
+.link_page li a {
+	text-decoration:none;
+	border-radius:0px 10px 0px 10px;
+	text-transform:capitalize;
+	margin:0px 0px 5px 0px;
+	padding:7px 0px 7px 10px;
+	float:left;
+	color:#fff;
+	width:350px;
+	transition:0.5s;
+	-webkit-transition:0.5s; /* Safari */
+	background:#7f7f7f;
+}
+.link_page li a:hover {
+	text-decoration:none;
+	padding:7px 80px;
+	border-radius:10px;
+	text-shadow:0px 0px 1px #555;
+	background:#b51a8f;
+	color:#fff;
+	transition:0.5s;
+	-webkit-transition:0.5s; /* Safari */
+}
+.link_home {
+	float:right;
+	clear:both;
+	margin:0px;
+	width:150px;
+	position:absolute;
+	top:230px;
+	right:22px;
+	z-index:99;
+}
+.link_home ul {
+	margin:0;
+	padding:0;
+}
+.link_home li {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	text-align:center;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+	font-size: 14px;
+}
+.link_home li a {
+	text-decoration:none;
+	border-radius:10px 0px 0px 10px;
+	text-transform:capitalize;
+	margin:0px 0px 2px 0px;
+	padding:5px 0px;
+	float:left;
+	color:#fff;
+	width:173px;
+	text-align:center;
+	transition:0.5s;
+	-webkit-transition:0.5s; /* Safari */
+	background:#4a4a4a;
+}
+.link_home li a:hover {
+	text-decoration:none;
+	border-radius:10px 0px 0px 10px;
+	text-shadow:0px 0px 1px #555;
+	background:#b51a8f;
+	color:#fff;
+	transition:0.5s;
+	-webkit-transition:0.5s; /* Safari */
+}
+.form {
+	width: auto;
+	display: block;
+}
+.form input[type="text"] {
+	width: 240px;
+	float: left;
+	margin: 0 0 10px 0;
+	outline: none;
+	border: 1px solid #e3e9ef;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+.form textarea {
+	width: 240px;
+	float: left;
+	margin: 0 0 10px 0;
+	outline: none;
+	border: 1px solid #e3e9ef;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	resize: none;
+}
+/* SLIMBOX */
+
+#lbOverlay {
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	cursor: pointer;
+}
+#lbCenter, #lbBottomContainer {
+	position: absolute;
+	z-index: 9999;
+	overflow: hidden;
+	background-color: #fff;
+}
+.lbLoading {
+	background: #fff url(loading.gif) no-repeat center;
+}
+#lbImage {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 10px solid #fff;
+	background-repeat: no-repeat;
+}
+#lbPrevLink, #lbNextLink {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 50%;
+	outline: none;
+}
+#lbPrevLink {
+	left: 0;
+}
+#lbPrevLink:hover {
+	background: transparent url(prevlabel.gif) no-repeat 0 15%;
+}
+#lbNextLink {
+	right: 0;
+}
+#lbNextLink:hover {
+	background: transparent url(nextlabel.gif) no-repeat 100% 15%;
+}
+#lbBottom {
+	font-size: 10px;
+	color: #666;
+	line-height: 1.4em;
+	text-align: left;
+	border: 10px solid #fff;
+	border-top-style: none;
+}
+#lbCloseLink {
+	display: block;
+	float: right;
+	width: 66px;
+	height: 22px;
+	background: transparent url(closelabel.gif) no-repeat center;
+	margin: 5px 0;
+	outline: none;
+}
+#lbCaption, #lbNumber {
+	margin-right: 71px;
+}
+#lbCaption {
+	font-weight: bold;
+}
+.gallery_box {
+	height:185px;
+	float:left;
+}
+.gallery_box img {
+	margin:10px 0px;
+	border-radius:30px 0px 30px 0px;
+	box-shadow:0px 5px 0px #b43596;
+	border:1px solid #b43596;
+	padding:2px;
+	font-family: "OpenSans-Regular", Helvetica, sans-serif;
+}
+.gallery_box a {
+	padding:6px;
+	float:left;
+	border-radius:10px;
+	text-align:center;
+	display:block;
+	transition:1s;
+	-webkit-transition:1s; /* Safari */
+	color:#232725;
+	text-decoration:none;
+	font-weight:bold;
+}
+.gallery_box a:hover {
+	background:#ffcff3;
+	text-align:center;
+	transition:1s;
+	-webkit-transition:1s; /* Safari */
+	text-decoration:none !important;
+	color:#000;
+	font-weight:bold;
+}
+.paging a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+	text-decoration:underline;
+	display:block;
+	float:left;
+	padding-right:10px;
+}
+.paging a:hover {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+	text-decoration:none;
+	display:block;
+	float:left;
+	padding-right:10px;
+}
+.prev {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+	text-decoration:none;
+	display:block;
+	float:left;
+	padding-right:10px;
+}
+.page {
+	font-size:12px;
+	color:#666;
+	display:block;
+	float:left;
+	width:100%;
+}
+.page span {
+	color:#666;
+	font-size:12px;
+	display:block;
+	float:left;
+	width:25px;
+}
+.page a {
+	color:#666;
+	text-decoration:none;
+	display:block;
+	float:left;
+	width:25px;
+}
+.page a:hover {
+	color:#666;
+	text-decoration:none;
+	display:block;
+	float:left;
+	width:25px;
+}
+.prev {
+	width:25px;
+	color:#666;
+	float:left;
+}
+.nextbutton {
+	width:25px;
+	color:#666;
+	float:left;
+}
+.container {
+	width: 610px;
+	margin: 40px auto;
+	text-align: left;
+}
+.tab-nav {
+	width: 578px;
+	position:absolute;
+	right:0px;
+	margin-top:180px;
+	overflow: hidden;
+        z-index:999;
+}
+.tab-nav ul {
+	position: relative;
+	float: left;
+	width:500px;
+	margin-left: 537px;
+	padding-left: 0;
+	list-style-type: none;
+}
+.tab-nav li {
+	float: left;
+	clear: left;
+	margin-bottom:2px;
+	background-color: #666666;
+}
+.tab-nav a {
+	display: block;
+	border-radius:5px 0px 0px 5px;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	background:#666666;
+	padding:5px 0px;
+}
+.tab-nav a.expanded {
+	background-position: 2px -244px;
+}
+/* second level */
+
+.tab-nav ul ul {
+	float: left;
+	background-color: #666666;
+	width: auto;
+	margin-left: 0;
+}
+.tab-nav li li {
+	clear: none;
+}
+.tab-nav li li a {
+	color: #fff;
+	width:50px;
+	background-image: none;
+}
+#banner-section {
+	width:100%;
+	margin:0;
+	padding:0;
+	max-height:439px;
+}
+#banner-section ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+#banner-section .banner-text {
+	width: 1000px;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:152px;
+	line-height:40px;
+	color: #000;
+	font-variant:small-caps;
+}
+.slideshow {
+	height:130px;
+	width: 274px;
+	margin: auto
+}
+.red {
+	color:#ff0000;
+}
+footer.se-footer{display:none;}
+#primary .inner{padding:0px;}
+#page p{font-size:14px !important;}
+h2.se-h2{15px !important;}
+#alt-names{display:none;}
+#secondary{background:none !important;}
+h3.ui-state-active{background":url(http://www.rakhospital.com/images/li-selected.jpg) none !important;}
+
+div#content p#quiz-header {
+float: left;
+color: #fff;
+line-height: 101px;
+margin-left: 25px;
+font-size: 25px !important;
+} 
+.quiz-pad{padding-top:70px !important;}
+.quiz-pad .se-h2{text-align:center;}
+a.get-answer-btn {margin-left:40%;}
